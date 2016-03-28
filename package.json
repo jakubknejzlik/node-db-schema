@@ -1,0 +1,19 @@
+{
+  "name": "db-schema",
+  "version": "0.2.7",
+  "dependencies": {
+    "js-yaml": "x",
+    "underscore": "x",
+    "underscore.inflections": "x",
+    "mysql": "x",
+    "async": "x",
+    "clone": "x",
+    "unit-parser": "x"
+  },
+  "keywords": [
+    "schema",
+    "db",
+    "database",
+    "query"
+  ]
+}
