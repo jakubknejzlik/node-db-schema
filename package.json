@@ -1,6 +1,6 @@
 {
   "name": "db-schema",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "dependencies": {
     "async": "^1.5.2",
     "clone": "^1.0.2",
