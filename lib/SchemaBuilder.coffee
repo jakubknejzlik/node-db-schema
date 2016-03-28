@@ -46,7 +46,7 @@ class SchemaBuilder extends Object
       try
         generator = new (require('./generators/'+engine.toLowerCase()))()
       catch e
-        throw new Error('engine '+engine+' not supported')
+        throw new Error('engine '+engine+' not supported, error: ' + e.message)
       @generators[engine] = generator
     return generator
 

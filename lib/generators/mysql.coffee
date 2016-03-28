@@ -1,7 +1,7 @@
 SchemaGenerator = require('../SchemaGenerator')
 
 async = require('async')
-unitParser = require('unit-parser')
+unitConverter = require('unit-converter')
 
 _ = require('underscore');
 _.mixin(require('underscore.inflections'));
@@ -168,7 +168,7 @@ class MySQLSchemaGenerator extends SchemaGenerator
   _sqlTypeForColumnType:(columnType,options = {})->
     type = null
     if options.length
-      length = unitParser(options.length + 'B').to('B')
+      length = unitConverter(options.length + 'B').to('B')
     switch columnType
       when 'bool','boolean'
         return 'tinyint(1)'
