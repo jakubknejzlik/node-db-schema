@@ -1,5 +1,7 @@
 # db-schema
 
+[![Build Status](https://travis-ci.org/jakubknejzlik/node-db-schema.svg?branch=master)](https://travis-ci.org/jakubknejzlik/node-db-schema)
+
 SQL schema generation tool.
 
 # Example
