@@ -1,6 +1,7 @@
 {
   "name": "db-schema",
   "version": "0.2.7",
+  "license": "MIT",
   "dependencies": {
     "async": "^1.5.2",
     "clone": "^1.0.2",
@@ -18,5 +19,9 @@
   ],
   "devDependencies": {
     "mocha": "^2.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakubknejzlik/js-core-data.git"
   }
 }
