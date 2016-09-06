@@ -1,9 +1,9 @@
 {
   "name": "db-schema",
   "version": "0.2.7",
+  "description":"SQL schema generation tool.",
   "license": "MIT",
   "dependencies": {
-    "async": "^1.5.2",
     "clone": "^1.0.2",
     "js-yaml": "^3.5.5",
     "mysql": "^2.10.2",

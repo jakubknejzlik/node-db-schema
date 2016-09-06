@@ -1,6 +1,5 @@
 SchemaGenerator = require('../SchemaGenerator')
 
-async = require('async')
 unitConverter = require('unit-converter')
 
 _ = require('underscore');
